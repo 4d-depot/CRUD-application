@@ -42,7 +42,7 @@
 					"borderRadius": "5px"
 				}
 			},
-			"displayName": "Webform",
+			"displayName": "Page",
 			"custom": {},
 			"parent": "",
 			"hidden": false,
@@ -66,7 +66,8 @@
 					"alignItems": "center",
 					"gap": "10px",
 					"flexWrap": "wrap"
-				}
+				},
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -92,7 +93,8 @@
 					"gap": "10px",
 					"flexDirection": "column"
 				},
-				"classNames": []
+				"classNames": [],
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -370,7 +372,8 @@
 					"borderColor": "#BCCBFF"
 				},
 				"datasource": "dataTable:user.avatar",
-				"imgSrc": "/$shared/visuals/pic1.jpg"
+				"imgSrc": "/$shared/assets/images/user.jpg",
+				"defaultImgSrc": "/$shared/assets/images/user.jpg"
 			},
 			"displayName": "Image",
 			"custom": {},
@@ -567,7 +570,8 @@
 					"width": "100%",
 					"display": "flex"
 				},
-				"serverSideRef": ""
+				"serverSideRef": "",
+				"iterableChild": true
 			},
 			"displayName": "Text Input",
 			"custom": {},
@@ -628,7 +632,9 @@
 				},
 				"dataType": "string",
 				"serverSideRef": "",
-				"classNames": []
+				"classNames": [],
+				"revealPassword": true,
+				"eyePosition": "right"
 			},
 			"displayName": "Input",
 			"custom": {},
@@ -654,7 +660,8 @@
 					"marginLeft": "0px",
 					"width": "100%"
 				},
-				"serverSideRef": ""
+				"serverSideRef": "",
+				"iterableChild": true
 			},
 			"displayName": "Text Input",
 			"custom": {},
@@ -715,7 +722,9 @@
 				},
 				"dataType": "string",
 				"serverSideRef": "",
-				"classNames": []
+				"classNames": [],
+				"revealPassword": true,
+				"eyePosition": "right"
 			},
 			"displayName": "Input",
 			"custom": {},
@@ -741,7 +750,8 @@
 					"marginLeft": "0px",
 					"width": "100%"
 				},
-				"serverSideRef": ""
+				"serverSideRef": "",
+				"iterableChild": true
 			},
 			"displayName": "Text Input",
 			"custom": {},
@@ -802,7 +812,9 @@
 				},
 				"dataType": "string",
 				"serverSideRef": "",
-				"classNames": []
+				"classNames": [],
+				"revealPassword": true,
+				"eyePosition": "right"
 			},
 			"displayName": "Input",
 			"custom": {},
@@ -828,7 +840,8 @@
 					"marginLeft": "0px",
 					"width": "100%"
 				},
-				"serverSideRef": ""
+				"serverSideRef": "",
+				"iterableChild": true
 			},
 			"displayName": "Text Input",
 			"custom": {},
@@ -888,7 +901,9 @@
 				},
 				"dataType": "string",
 				"serverSideRef": "",
-				"classNames": []
+				"classNames": [],
+				"revealPassword": true,
+				"eyePosition": "right"
 			},
 			"displayName": "Input",
 			"custom": {},
@@ -909,7 +924,8 @@
 					"justifyContent": "space-between",
 					"flexWrap": "nowrap",
 					"alignContent": "flex-end"
-				}
+				},
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -1066,7 +1082,8 @@
 					"display": "flex",
 					"justifyContent": "space-around",
 					"alignItems": "center"
-				}
+				},
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -1090,7 +1107,8 @@
 					"justifyContent": "center",
 					"alignItems": "center",
 					"gap": "10px"
-				}
+				},
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -1121,7 +1139,8 @@
 					"marginLeft": "0px",
 					"width": "100%"
 				},
-				"serverSideRef": ""
+				"serverSideRef": "",
+				"iterableChild": true
 			},
 			"displayName": "Text Input",
 			"custom": {},
@@ -1183,7 +1202,9 @@
 				"dataType": "date",
 				"serverSideRef": "",
 				"classNames": [],
-				"format": ""
+				"format": "",
+				"revealPassword": true,
+				"eyePosition": "right"
 			},
 			"displayName": "Input",
 			"custom": {},
@@ -1209,7 +1230,8 @@
 					"marginLeft": "0px",
 					"width": "100%"
 				},
-				"serverSideRef": ""
+				"serverSideRef": "",
+				"iterableChild": true
 			},
 			"displayName": "Text Input",
 			"custom": {},
@@ -1272,7 +1294,9 @@
 				"dataType": "string",
 				"serverSideRef": "",
 				"classNames": [],
-				"readOnly": true
+				"readOnly": true,
+				"revealPassword": true,
+				"eyePosition": "right"
 			},
 			"displayName": "Input",
 			"custom": {},

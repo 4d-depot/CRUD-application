@@ -502,7 +502,9 @@
 					"minWidth": "50px",
 					"minHeight": "50px"
 				},
-				"datasource": "Demo:$This.avatar"
+				"datasource": "Demo:$This.avatar",
+				"imgSrc": "/$shared/assets/images/user.jpg",
+				"defaultImgSrc": "/$shared/assets/images/user.jpg"
 			},
 			"displayName": "Image",
 			"custom": {},

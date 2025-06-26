@@ -1,0 +1,140 @@
+{
+	"metadata": {
+		"v": "1.0",
+		"datasources": [],
+		"styles": [
+			{
+				"name": "shadowboxCSS",
+				"content": "self {\n\tbox-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n}",
+				"parentId": null,
+				"scope": "local",
+				"id": "AOOgqx-PYW2qLvszsGBp4"
+			}
+		]
+	},
+	"components": {
+		"ROOT": {
+			"type": {
+				"resolvedName": "Container"
+			},
+			"isCanvas": true,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"className": "bg-white h-full w-full px-6",
+				"airyMode": false,
+				"style": {
+					"display": "flex",
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px"
+				}
+			},
+			"displayName": "Webform",
+			"custom": {},
+			"parent": "",
+			"hidden": false,
+			"nodes": [
+				"5uIdR0vv2s",
+				"ht0-JmzJLC"
+			],
+			"linkedNodes": {}
+		},
+		"5uIdR0vv2s": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"width": "75%",
+					"display": "flex",
+					"flexDirection": "column",
+					"paddingRight": "0px",
+					"backgroundColor": "#F4F7FE",
+					"paddingBottom": "0px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"-OZeRAaqzc"
+			],
+			"linkedNodes": {}
+		},
+		"ht0-JmzJLC": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"width": "25%",
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px",
+					"display": "flex",
+					"alignItems": "center"
+				},
+				"classNames": [
+					"shadowboxCSS"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"iAVGoNjY9X"
+			],
+			"linkedNodes": {}
+		},
+		"-OZeRAaqzc": {
+			"type": {
+				"resolvedName": "WebformLoader"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"webform": "userList",
+				"style": {
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px"
+				},
+				"classNames": [
+					"flexGrow1"
+				]
+			},
+			"displayName": "Webform Loader",
+			"custom": {},
+			"parent": "5uIdR0vv2s",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"iAVGoNjY9X": {
+			"type": {
+				"resolvedName": "WebformLoader"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"webform": "editUser"
+			},
+			"displayName": "Webform Loader",
+			"custom": {},
+			"parent": "ht0-JmzJLC",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		}
+	}
+}

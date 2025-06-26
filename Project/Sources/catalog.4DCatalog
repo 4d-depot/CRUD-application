@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="crud" uuid="4378BE0CA5AC9D4BBDEC7920784DD5A6" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="User" uuid="645CE3D398BA49B3B26F9B8E75DCE1DD" id="1">
+		<field name="ID" uuid="AB2604E168B244BBA87DC57C29648460" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="firstName" uuid="6516F283C8CD4E33952536F4ED9BF20E" type="10" id="2"/>
+		<field name="lastName" uuid="75D9EC38D13742879F3DC545A412A20C" type="10" id="3"/>
+		<field name="email" uuid="330D89DCEE8A4CF7BD24258AB0E5B4C7" type="10" id="4"/>
+		<field name="phone" uuid="DE00D9319E104A1B9536BE3284D17A29" type="10" id="5"/>
+		<field name="birthDate" uuid="530BE2BD46C14DA8893332967C5DEF91" type="8" id="6"/>
+		<field name="address_ID" uuid="D7FA5E7D3A6B43609179FDCF21EB96A3" type="4" id="7"/>
+		<field name="avatar" uuid="EC63907F37A74C21930DF692B6A9E55A" type="12" id="8"/>
+		<primary_key field_name="ID" field_uuid="AB2604E168B244BBA87DC57C29648460"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="19">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="-3.0517578125E-05" top="681.69921875" width="220" height="442"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Address" uuid="61E7517CED1E46DA93843BE88EDE7506" id="2">
+		<field name="ID" uuid="A59C4F00123D49F19A8E778A2E1F38A5" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="street" uuid="5F7463D1B92642B4ADC3B8D87DABC8DE" type="10" id="2"/>
+		<field name="streetName" uuid="0EC054CE11F14717BC7B8FD534D3D2BA" type="10" id="3"/>
+		<field name="city" uuid="6C696ECD948748D6932BB4C7D640B8D9" type="10" id="4"/>
+		<field name="state" uuid="4B64FB5988EA4AE6B77A5EC22B5651F7" type="10" id="5"/>
+		<field name="country" uuid="FC1D17F615B045E5BABC6636C1741D98" type="10" id="6"/>
+		<field name="zipCode" uuid="DBF00E79CE9E44F68336B0E193745088" type="3" id="7"/>
+		<primary_key field_name="ID" field_uuid="A59C4F00123D49F19A8E778A2E1F38A5"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="14">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="440.99011230469" top="743.12615966797" width="246" height="338"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="F2ECED9D797947159664E85BBAFBBED2" name_Nto1="address" name_1toN="userSelection" state="1">
+		<related_field kind="source">
+			<field_ref uuid="D7FA5E7D3A6B43609179FDCF21EB96A3" name="address_ID">
+				<table_ref uuid="645CE3D398BA49B3B26F9B8E75DCE1DD" name="User"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="A59C4F00123D49F19A8E778A2E1F38A5" name="ID">
+				<table_ref uuid="61E7517CED1E46DA93843BE88EDE7506" name="Address"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="046B1ED7383C40D792B86CC04ED17824" type="7">
+		<field_ref uuid="AB2604E168B244BBA87DC57C29648460" name="ID">
+			<table_ref uuid="645CE3D398BA49B3B26F9B8E75DCE1DD" name="User"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="326388AAEFB147F3B9190B6C807A9370" type="7">
+		<field_ref uuid="A59C4F00123D49F19A8E778A2E1F38A5" name="ID">
+			<table_ref uuid="61E7517CED1E46DA93843BE88EDE7506" name="Address"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5DBA200285C54379A4CC6EBCE22CC327" type="1">
+		<field_ref uuid="D7FA5E7D3A6B43609179FDCF21EB96A3" name="address_ID">
+			<table_ref uuid="645CE3D398BA49B3B26F9B8E75DCE1DD" name="User"/>
+		</field_ref>
+	</index>
+</base>

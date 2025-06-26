@@ -1,0 +1,97 @@
+{
+	"metadata": {
+		"v": "1.0",
+		"datasources": [],
+		"styles": [],
+		"states": [
+			{
+				"label": "Base",
+				"id": "root"
+			},
+			{
+				"label": "connected",
+				"id": "u9GEkcLKxyauYYDitmjU4W",
+				"conditions": {
+					"id": "pjdiU6xukD8ctUabQmJ2BV",
+					"type": "privilege",
+					"name": "hasPrivilege",
+					"value": "",
+					"valueType": "hardCoded",
+					"op": "haspriv"
+				}
+			},
+			{
+				"label": "notConnected",
+				"id": "6YTeCcBvzi5dCXxSUjjDUt",
+				"conditions": {
+					"id": "u635fiX5HEKKBtPvB2pbqz",
+					"type": "privilege",
+					"name": "hasNoPrivilege",
+					"value": "",
+					"valueType": "hardCoded",
+					"op": "hasnopriv"
+				}
+			}
+		]
+	},
+	"components": {
+		"ROOT": {
+			"type": {
+				"resolvedName": "Container"
+			},
+			"isCanvas": true,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"className": "bg-white h-full w-full px-6",
+				"airyMode": true,
+				"style": {
+					"width": "100%",
+					"height": "100%",
+					"paddingLeft": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingTop": "0px"
+				}
+			},
+			"displayName": "Page",
+			"custom": {},
+			"parent": "",
+			"hidden": false,
+			"nodes": [
+				"zs7sIPAfU_"
+			],
+			"linkedNodes": {}
+		},
+		"zs7sIPAfU_": {
+			"type": {
+				"resolvedName": "WebformLoader"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"style": {
+					"height": "100%",
+					"width": "100%",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingTop": "0px",
+					"paddingLeft": "0px"
+				}
+			},
+			"displayName": "Page Loader",
+			"custom": {
+				"states:6YTeCcBvzi5dCXxSUjjDUt": {
+					"webform": "login"
+				},
+				"states:u9GEkcLKxyauYYDitmjU4W": {
+					"webform": "main"
+				}
+			},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		}
+	}
+}

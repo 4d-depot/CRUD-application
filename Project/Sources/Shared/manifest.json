@@ -1,0 +1,34 @@
+{
+  "applicationName": "CRUD Operations",
+  "description": "This template provides a hands-on experience with CRUD (Create, Read, Update, Delete) operations in Qodly.",
+  "details": "Feel free to add, edit, and remove users to experiment with different functionalities.",
+  "visuals": [
+    {
+      "description": "DataTable : User list",
+      "image": "/$shared/visuals/dataTable.jpg"
+    },
+		{
+      "description": "Matrix : User list",
+      "image": "/$shared/visuals/matrix.jpg"
+    },
+    {
+      "description": "user details",
+      "image": "/$shared/visuals/userInfo.jpg"
+    },
+    {
+      "description": "Quick Actions",
+      "image": "/$shared/visuals/quickActions.jpg"
+    }
+  ],
+  "logo": {
+    "small": "logo_small_path",
+    "large": "/$shared/logos/Q-2.svg"
+  },
+  "qodlyVersion": "all",
+  "author": {
+    "name": "Qodly",
+    "url": "https://www.qodly.com/"
+  },
+  "category": "Qodly starters",
+  "language": "English"
+}

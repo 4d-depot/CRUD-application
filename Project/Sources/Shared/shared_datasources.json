@@ -1,0 +1,48 @@
+{
+	"dataTable": [
+		{
+			"id": "users",
+			"type": "entitysel",
+			"dataclass": "User",
+			"namespace": "dataTable",
+			"initialValue": "all",
+			"depth": null,
+			"pageSize": 100
+		},
+		{
+			"id": "search",
+			"type": "scalar",
+			"namespace": "dataTable",
+			"dataType": "string",
+			"initialValue": ""
+		},
+		{
+			"id": "user",
+			"type": "entity",
+			"dataclass": "User",
+			"from": "users",
+			"namespace": "dataTable",
+			"initialValue": "first",
+			"depth": null,
+			"events": [
+				{
+					"type": "simple-action",
+					"id": "5m9wgye2Y7wwX9MPMBMno9",
+					"events": [
+						"onChange"
+					],
+					"action": "copy",
+					"datasource": {
+						"name": "user",
+						"type": "entity",
+						"namespace": "dataTable",
+						"from": "users",
+						"target": "userAux",
+						"targetNamespace": "",
+						"targetType": "entity"
+					}
+				}
+			]
+		}
+	]
+}

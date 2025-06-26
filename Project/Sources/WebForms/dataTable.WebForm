@@ -1,0 +1,143 @@
+{
+	"metadata": {
+		"v": "1.0",
+		"datasources": [],
+		"styles": [
+			{
+				"name": "dataTableCSS",
+				"content": "self {\n\tborder-radius: 0.625rem;\n\tbackground: #FFF;\n\tbox-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\nself .header{\n\tfont-size: 13px;\n\tfont-weight: 500;\n}\n\nself .header .header-cell{\n\tbackground-color: #5177FE;\n\tcolor: #FFF\n}\n\nself .col-first-name{\n\tcolor: #1D5D9B\n}\n\nself .col-full-address > div{\n  \toverflow: hidden;\n  \ttext-overflow: ellipsis;\n}\n\nself .col-first-name > div,\nself .header-first-name > span{\n\ttext-align: center;\n}\n\nself .row.selected .col-first-name{\n\tcolor: #FFF\n}\n\nself .row {\n\tfont-size: 13px;\n\tfont-weight: 500;\n\talign-items: center;\n}\n\nself .row.selected {\n\tborder: 1px solid #A3B7FD;\n\tbackground: #A3B7FD;\n}\n\nself .row:hover {\n\tborder: 1px solid #F1F4FF;\n\tbackground: #F1F4FF;\n}",
+				"parentId": null,
+				"id": "VrpQLEdjE7TFQzM7tQOeK",
+				"scope": "local"
+			}
+		]
+	},
+	"components": {
+		"ROOT": {
+			"type": {
+				"resolvedName": "Container"
+			},
+			"isCanvas": true,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"className": "bg-white h-full w-full px-6",
+				"airyMode": false,
+				"style": {
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px",
+					"display": "flex",
+					"flexDirection": "column",
+					"backgroundColor": "transparent"
+				}
+			},
+			"displayName": "Page",
+			"custom": {},
+			"parent": "",
+			"hidden": false,
+			"nodes": [
+				"Oc8LEMDDHK"
+			],
+			"linkedNodes": {}
+		},
+		"Oc8LEMDDHK": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {},
+				"classNames": [
+					"flexGrow1"
+				],
+				"iterableChild": true
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"aLAjG5WDwm"
+			],
+			"linkedNodes": {}
+		},
+		"aLAjG5WDwm": {
+			"type": {
+				"resolvedName": "DataTable"
+			},
+			"isCanvas": false,
+			"props": {
+				"iterable": true,
+				"classNames": [
+					"dataTableCSS"
+				],
+				"events": [],
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"headerHeight": 40,
+				"rowHeight": 50,
+				"datasource": "dataTable:users",
+				"columns": [
+					{
+						"title": "Firstname",
+						"source": "firstName",
+						"width": "15%",
+						"sorting": true,
+						"format": "",
+						"dataType": "string",
+						"id": "vY8TkL8eFnSWRrAnrREdrB"
+					},
+					{
+						"title": "Lastname",
+						"source": "lastName",
+						"width": "15%",
+						"sorting": true,
+						"format": "",
+						"dataType": "string",
+						"id": "vrXzLRf1RtH1Avv2unT5m4"
+					},
+					{
+						"title": "Email",
+						"source": "email",
+						"width": "20%",
+						"sorting": false,
+						"format": "",
+						"dataType": "string",
+						"id": "fx2sCtopiZ5JyYit5ERSmr"
+					},
+					{
+						"title": "Phone",
+						"source": "phone",
+						"width": "15%",
+						"sorting": false,
+						"format": "",
+						"dataType": "string",
+						"id": "ipejQVuvjTfVcnCKB9pHy2"
+					},
+					{
+						"title": "Fulladdress",
+						"source": "fullAddress",
+						"width": "35%",
+						"sorting": false,
+						"format": "",
+						"id": "uc2D4VhBTmLmJ4B7MKdBAy"
+					}
+				],
+				"currentElement": "dataTable:user",
+				"showBorders": false,
+				"iterableChild": true
+			},
+			"displayName": "DataTable",
+			"custom": {},
+			"parent": "Oc8LEMDDHK",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		}
+	}
+}

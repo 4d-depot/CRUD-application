@@ -1,0 +1,10 @@
+{
+	"classes": [
+		{
+			"name": "flexGrow1",
+			"content": "self {\n\tflex-grow: 1;\n}",
+			"parentId": null,
+			"id": "h7iOI2NGyXClbEKcFDm2L"
+		}
+	]
+}

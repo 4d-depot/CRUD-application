@@ -45,7 +45,8 @@
 					"paddingTop": "0px",
 					"paddingRight": "0px",
 					"paddingBottom": "0px",
-					"paddingLeft": "0px"
+					"paddingLeft": "0px",
+					"height": "100%"
 				}
 			},
 			"displayName": "Page",
@@ -891,7 +892,8 @@
 					"paddingLeft": "0px",
 					"paddingRight": "0px",
 					"paddingBottom": "0px",
-					"paddingTop": "0px"
+					"paddingTop": "0px",
+					"height": "100%"
 				},
 				"classNames": [
 					"flexGrow1"

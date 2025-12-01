@@ -78,7 +78,8 @@
 					"paddingLeft": "16px",
 					"display": "flex",
 					"flexDirection": "column",
-					"backgroundColor": "transparent"
+					"backgroundColor": "transparent",
+					"height": "100%"
 				}
 			},
 			"displayName": "Page",
@@ -181,7 +182,8 @@
 					"paddingTop": "0px",
 					"paddingRight": "0px",
 					"paddingBottom": "0px",
-					"paddingLeft": "0px"
+					"paddingLeft": "0px",
+					"width": "100%"
 				},
 				"iterableChild": true
 			},
@@ -201,10 +203,11 @@
 			},
 			"isCanvas": false,
 			"props": {
+				"text": "Label",
+				"classNames": [],
 				"events": [],
 				"moveable": false,
-				"deletable": true,
-				"text": "Label"
+				"deletable": true
 			},
 			"displayName": "Label",
 			"custom": {},
@@ -237,7 +240,8 @@
 				},
 				"revealPassword": true,
 				"eyePosition": "right",
-				"intervals": []
+				"intervals": [],
+				"twentyFourHours": true
 			},
 			"displayName": "Input",
 			"custom": {},
@@ -786,7 +790,8 @@
 					"paddingRight": "0px",
 					"paddingBottom": "0px",
 					"paddingLeft": "0px",
-					"display": "block"
+					"display": "block",
+					"height": "100%"
 				},
 				"classNames": [
 					"flexGrow1"

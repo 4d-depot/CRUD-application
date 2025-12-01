@@ -1,4 +1,4 @@
 {
-	"webforms.renderer.indexPage": "home",
+	"webforms.renderer.indexPage": "HomePage",
 	"webforms.display-mode": "airy"
 }

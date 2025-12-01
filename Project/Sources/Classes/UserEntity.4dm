@@ -1,14 +1,14 @@
 Class extends Entity
 
 
-exposed Function get fullAddress() : text
-	var $address: text
-	If (This.address#Null)
-		$address:=(This.address.street#Null) ? This.address.street : ""
-		$address:=(This.address.streetName#Null) ? $address+", "+This.address.streetName : $address
-		$address:=(This.address.city#Null) ? $address+", "+This.address.city : $address
-		$address:=(This.address.state#Null) ? $address+", "+This.address.state : $address
-		$address:=(This.address.zipCode#Null) ? $address+" "+String(This.address.zipCode) : $address
-		$address:=(This.address.country#Null) ? $address+", "+This.address.country : $address
-	end if 
+exposed Function get fullAddress() : Text
+	var $address : Text
+	If (This:C1470.address#Null:C1517)
+		$address:=(This:C1470.address.street#Null:C1517) ? This:C1470.address.street : ""
+		$address:=(This:C1470.address.streetName#Null:C1517) ? $address+", "+This:C1470.address.streetName : $address
+		$address:=(This:C1470.address.city#Null:C1517) ? $address+", "+This:C1470.address.city : $address
+		$address:=(This:C1470.address.state#Null:C1517) ? $address+", "+This:C1470.address.state : $address
+		$address:=(This:C1470.address.zipCode#Null:C1517) ? $address+" "+String:C10(This:C1470.address.zipCode) : $address
+		$address:=(This:C1470.address.country#Null:C1517) ? $address+", "+This:C1470.address.country : $address
+	End if 
 	return $address

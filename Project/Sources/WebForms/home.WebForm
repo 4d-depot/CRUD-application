@@ -15,9 +15,9 @@
 					"id": "pjdiU6xukD8ctUabQmJ2BV",
 					"type": "privilege",
 					"name": "hasPrivilege",
-					"value": "",
+					"value": "connected",
 					"valueType": "hardCoded",
-					"op": "haspriv"
+					"op": "eq"
 				}
 			},
 			{
@@ -27,9 +27,9 @@
 					"id": "u635fiX5HEKKBtPvB2pbqz",
 					"type": "privilege",
 					"name": "hasNoPrivilege",
-					"value": "",
+					"value": "connected",
 					"valueType": "hardCoded",
-					"op": "hasnopriv"
+					"op": "neq"
 				}
 			}
 		]

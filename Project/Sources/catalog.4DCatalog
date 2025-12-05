@@ -11,11 +11,12 @@
 		<field name="birthDate" uuid="530BE2BD46C14DA8893332967C5DEF91" type="8" id="6"/>
 		<field name="address_ID" uuid="D7FA5E7D3A6B43609179FDCF21EB96A3" type="4" id="7"/>
 		<field name="avatar" uuid="EC63907F37A74C21930DF692B6A9E55A" type="12" id="8"/>
+		<field name="password" uuid="E4D7B6EB67EA4BF292134AB21FC82BF9" type="10" limiting_length="255" id="9"/>
 		<primary_key field_name="ID" field_uuid="AB2604E168B244BBA87DC57C29648460"/>
 		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="19">
+			<editor_table_info displayable_fields_count="19">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="-3.0517578125E-05" top="681.69921875" width="220" height="442"/>
+				<coordinates left="60.999969482422" top="613.69921875" width="220" height="442"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

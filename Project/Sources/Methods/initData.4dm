@@ -28,6 +28,7 @@ If ($request.response#Null:C1517)
 		$user.lastName:=$item.last_name
 		$user.email:=$item.email
 		$user.phone:=$item.phone
+		$user.password:=Generate password hash:C1533("1234")
 		
 		$mydates:=Split string:C1554($item.birthdate; "/"; sk ignore empty strings:K86:1)
 		$user.birthDate:=Add to date:C393(!00-00-00!; Num:C11($mydates[2]); Num:C11($mydates[1]); Num:C11($mydates[0]))
@@ -43,3 +44,5 @@ If ($request.response#Null:C1517)
 		$info:=$user.save()
 	End for each 
 End if 
+
+Web Form:C1735.setMessage("Data generated!")

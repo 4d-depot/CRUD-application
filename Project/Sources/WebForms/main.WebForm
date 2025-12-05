@@ -28,10 +28,11 @@
 					"paddingTop": "0px",
 					"paddingRight": "0px",
 					"paddingBottom": "0px",
-					"paddingLeft": "0px"
+					"paddingLeft": "0px",
+					"height": "100%"
 				}
 			},
-			"displayName": "Webform",
+			"displayName": "Page",
 			"custom": {},
 			"parent": "",
 			"hidden": false,
@@ -54,8 +55,11 @@
 					"flexDirection": "column",
 					"paddingRight": "0px",
 					"backgroundColor": "#F4F7FE",
-					"paddingBottom": "0px"
-				}
+					"paddingBottom": "0px",
+					"height": "100%",
+					"minHeight": "100%"
+				},
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -84,7 +88,8 @@
 				},
 				"classNames": [
 					"shadowboxCSS"
-				]
+				],
+				"iterableChild": true
 			},
 			"displayName": "Stylebox",
 			"custom": {},
@@ -107,13 +112,14 @@
 					"paddingTop": "0px",
 					"paddingRight": "0px",
 					"paddingBottom": "0px",
-					"paddingLeft": "0px"
+					"paddingLeft": "0px",
+					"height": "100%"
 				},
 				"classNames": [
 					"flexGrow1"
 				]
 			},
-			"displayName": "Webform Loader",
+			"displayName": "Page Loader",
 			"custom": {},
 			"parent": "5uIdR0vv2s",
 			"hidden": false,
@@ -129,7 +135,7 @@
 				"events": [],
 				"webform": "editUser"
 			},
-			"displayName": "Webform Loader",
+			"displayName": "Page Loader",
 			"custom": {},
 			"parent": "ht0-JmzJLC",
 			"hidden": false,

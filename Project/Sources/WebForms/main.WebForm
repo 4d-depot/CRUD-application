@@ -66,6 +66,7 @@
 			"parent": "ROOT",
 			"hidden": false,
 			"nodes": [
+				"i_PneaRi-O",
 				"-OZeRAaqzc"
 			],
 			"linkedNodes": {}
@@ -138,6 +139,79 @@
 			"displayName": "Page Loader",
 			"custom": {},
 			"parent": "ht0-JmzJLC",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"i_PneaRi-O": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "qodly-pro-action",
+						"id": "nU3w41HwKpo4AJCDWpTL8j",
+						"events": [
+							"onclick"
+						],
+						"actionType": "auth",
+						"action": "logout"
+					}
+				],
+				"iterableChild": true,
+				"style": {
+					"display": "flex",
+					"justifyContent": "flex-end"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "5uIdR0vv2s",
+			"hidden": false,
+			"nodes": [
+				"tB_5VY3zUJ"
+			],
+			"linkedNodes": {}
+		},
+		"tB_5VY3zUJ": {
+			"type": {
+				"resolvedName": "Button"
+			},
+			"isCanvas": false,
+			"props": {
+				"text": "Logout",
+				"classNames": [],
+				"events": [],
+				"iconPosition": "left",
+				"style": {
+					"display": "flex",
+					"backgroundColor": "#5177FE"
+				}
+			},
+			"displayName": "Button",
+			"custom": {},
+			"parent": "i_PneaRi-O",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {
+				"icon": "6udDW3LLAj"
+			}
+		},
+		"6udDW3LLAj": {
+			"type": {
+				"resolvedName": "Icon"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"icon": "fa-solid fa-arrow-right-from-bracket"
+			},
+			"displayName": "Icon",
+			"custom": {},
+			"parent": "tB_5VY3zUJ",
 			"hidden": false,
 			"nodes": [],
 			"linkedNodes": {}

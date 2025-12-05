@@ -74,8 +74,10 @@ To access and start using the application, open the project in Qodly Studio and 
 
 You can choose your preferred starting page depending on your workflow:
 
-Set the starting page to HomePage if you want an overview of the entire application and its features.
-Set the starting page to home if you want to land directly on the login process.
+Choose your starting page:
+
+- **Home** → Opens the application's presentation  
+- **StartPage** → Starts with authentication  
 
 Explore the different pages to discover all the available features of the system..
 
